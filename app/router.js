@@ -9,6 +9,9 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('blogs', function(){
     this.route('index');
+    this.route('new');
+    this.route('edit', {path: '/:id/edit'});
+    this.route('show', {path: '/:id'});
   });
 });
 

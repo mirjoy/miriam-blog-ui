@@ -1,0 +1,14 @@
+.navbar {
+  font-size: 20px;
+  font-family: $header-font;
+  color: #dcb239;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+#nav-title{
+  font-weight: bold;
+  color: #df744a;
+  text-decoration: none;
+}
